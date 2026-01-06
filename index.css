@@ -1,0 +1,8 @@
+/* Basic CSS file included so Vite preview / static servers have a file to load. Tailwind is loaded via CDN in index.html. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html, body, #root { height: 100%; }
+body { margin: 0; font-family: 'Inter', sans-serif; }
+
+/* helper for hiding scrollbars used in the app */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
